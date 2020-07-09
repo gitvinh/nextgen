@@ -1,5 +1,7 @@
 package com.nextgen.demo;
-
+/*
+ * Created a class to store all the cheese info for future usage.
+ */
 public class CanadianCheese {
 	private String cheeseId;
 	private String cheeseNameEn;

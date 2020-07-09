@@ -10,6 +10,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+/*
+ * #1 This is the first file I created
+ * 
+ * Goal #1: Was to read through the given JSON file. 
+ * I was able to achieve this goal. However, shortly after I had to figure how to output it on a webpage.
+ */
 public class ReadJSON 
 {
 	@SuppressWarnings("unchecked")
@@ -48,9 +54,11 @@ public class ReadJSON
 	}
 
 	/*
-	 * Retrieve cheese information from JSON file
+	 * UNUSED *
+	 * 
+	 * Retrieve cheese from JSON file
 	 */
-	private static void parseCheeseObject(JSONObject cheese) 
+	/*private static void parseCheeseObject(JSONObject cheese) 
 	{
 		JSONObject cheeseObject = (JSONObject) cheese.get("CheeseDirectory");
 
@@ -116,5 +124,5 @@ public class ReadJSON
 		String RindTypeFr = (String) cheeseObject.get("RindTypeFr");
 		
 		String LastUpdateDate = (String) cheeseObject.get("LastUpdateDate");
-	}
+	}*/
 }
